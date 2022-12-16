@@ -7,6 +7,17 @@ headers; {
   body: JSON.stringify(getData)
 
 
+function getData() {
+  fetch(BASE_URL)
+     .then((res) => res.json())
+     .then((data) => {
+          hospitalAppointmentSystem.innerHTML = 'data';
+          hospitalAppointmentSystem.appendChild(hospitalAppointmentSystem);
+     })
+  }
+
+
+
   let submit = document.eventListeners('div');
   submit.innerHTML = '<h1>Event Listeners</h1>' +
     '<p>The following event listeners are added:</p>' +
@@ -92,11 +103,3 @@ if (confirm("Press a button!") == true) {
 
 
 
-function getData() {
-    fetch(BASE_URL)
-       .then((res) => res.json())
-       .then((data) => {
-            hospitalAppointmentSystem.innerHTML = 'data';
-            hospitalAppointmentSystem.appendChild(hospitalAppointmentSystem);
-       })
-    }
