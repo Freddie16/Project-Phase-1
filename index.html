@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital appointment system</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Personal patient information-->
+    <h1>MURIGI HOSPITAL</h1>
+    <form>
+    <h2>Patient Information</h2>
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname">
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname">
+    </form>
+    <h3>D.O.B & Address</h3>
+    <form>
+    <label for="Date of Birth">
+        Enter the Date:
+        <input type="date" name="date">
+    </label>
+    <!--Selection of personal address in Kenya-->
+    <div class="col-12">
+        <select class="form-select border-0" style="height: 55px;">
+            <option  disabled selected>Your County</option>
+            <option value='Baringo'>Baringo</option>
+            <option value='Bomet'>Bomet</option>
+            <option value='Bungoma'>Bungoma</option>
+            <option value='Busia'>Busia</option>
+            <option value='Elgeyo-Marakwet'>Elgeyo-Marakwet</option>
+            <option value='Embu'>Embu</option>
+            <option value='Garissa'>Garissa</option>
+            <option value='Homa Bay'>Homa Bay</option>
+            <option value='Isiolo'>Isiolo</option>
+            <option value='Kajiado'>Kajiado</option>
+            <option value='Kakamega'>Kakamega</option>
+            <option value='Kericho'>Kericho</option>
+            <option value='Kiambu'>Kiambu</option>
+            <option value='Kilifi'>Kilifi</option>
+            <option value='Kirinyaga'>Kirinyaga</option>
+            <option value='Kisii'>Kisii</option>
+            <option value='Kisumu'>Kisumu</option>
+            <option value='Kitui'>Kitui</option>
+            <option value='Kwale'>Kwale</option>
+            <option value='Laikipia'>Laikipia</option>
+            <option value='Lamu'>Lamu</option>
+            <option value='Machakos'>Machakos</option>
+            <option value='Makueni'>Makueni</option>
+            <option value='Mandera'>Mandera</option>
+            <option value='Marsabit'>Marsabit</option>
+            <option value='Meru'>Meru</option>
+            <option value='Migori'>Migori</option>
+            <option value='Mombasa'>Mombasa</option>
+            <option value='Murang'a'>Murang'a</option>
+            <option value='Nairobi City'>Nairobi City</option>
+            <option value='Nakuru'>Nakuru</option>
+            <option value='Nandi'>Nandi</option>
+            <option value='Narok'>Narok</option>
+            <option value='Nyamira'>Nyamira</option>
+            <option value='Nyandarua'>Nyandarua</option>
+            <option value='Nyeri'>Nyeri</option>
+            <option value='Samburu'>Samburu</option>
+            <option value='Siaya'>Siaya</option>
+            <option value='Taita-Taveta'>Taita-Taveta</option>
+            <option value='Tana River'>Tana River</option>
+            <option value='Tharaka-Nithi'>Tharaka-Nithi</option>
+            <option value='Trans Nzoia'>Trans Nzoia</option>
+            <option value='Turkana'>Turkana</option>
+            <option value='Uasin Gishu'>Uasin Gishu</option>
+            <option value='Vihiga'>Vihiga</option>
+            <option value='West Pokot'>West Pokot</option>
+            <option value='wajir'>wajir</option>
+        </select>
+        <!--More personal patient information-->
+    <label for="pnumber">Phonenumber</label>
+    <input type="text" id="pnumber" name="pnumber">
+    <label for="email">Email</label>
+    <input type="text" id="Email" name="Email">
+    </form>
+    <!--Select your insurance coverage-->
+    <h3>Insurance Coverage</h3>
+    <form>
+    <div class="col-12">
+        <select class="form-select border-0" style="height: 55px;">
+            <option  disabled selected>Your Insurance coverage</option>
+            <option value='NHIF'>NHIF</option>
+            <option value='AON'>AON</option>
+            <option value='JUBILEE'>JUBILEE</option>
+            <input type="text" id="Doctor" name="Doctor">
+            <!--Select Date and Time for your appointment-->
+            <label for="Appointment Date">
+                Enter the Date:
+                <input type="date" name="date">
+            </label>
+            <label for="Appointment Time">
+                Enter the Time:
+                <input type="time" name="time">
+            </label>
+            <label for="reason">Reason For Appointment</label>
+            <input type="text" id="reason" name="reason">
+
+    
+            <label for="symptoms">Symptoms</label>
+            <input type="text" id="symptoms" name="symptoms">
+
+            <label for="medications">Medication</label>
+            <input type="text" id="medications" name="medications">
+
+            <!--Select Doctor for your appointment-->
+            <h3>Doctor For Appointment</h3>
+    <div class="col-12">
+        <select class="form-select border-0" style="height: 55px;">
+            <option  disabled selected>Your Doctor</option>
+            <option value='Dr Owiti'>Dr Owiti</option>
+            <option value='Dr Murigi'>Dr Murigi</option>
+            <option value='Dr Winnie'>Dr Winnie</option>
+            <option value='Dr Mungai'>Dr Mungai</option>
+
+            <label for="doctor">Doctor</label>
+            <input type="text" id="doctor" name="doctor">
+
+          <!--Submit and Reset your personal information-->
+            <input type="submit" value="Book Appointment">
+            <input type="reset" value="Cancel">
+      </form>
+</body>
+</html>
