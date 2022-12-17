@@ -1,14 +1,14 @@
 const BASE_URL = "https://data.cms.gov/provider-data/api/1/metastore/schemas"
-method:  "GET",
-headers; {
-    "Content-Type"; "application/json",
-    Accept ; "application/json",
+
+function addToDb(getData) {
+fetch(BASE_URL), {
+  method: "GET",
+  headers: {
+    "Content-Type": "application/json",
+    Accept: "application/json",
   },
   body: JSON.stringify(getData)
-
-
-function getData() {
-  fetch(BASE_URL)
+}
      .then((res) => res.json())
      .then((data) => {
           hospitalAppointmentSystem.innerHTML = 'data';
@@ -41,7 +41,12 @@ hospitalAppointmentSystem.innerHTML = '<h2>Patient Information</h2>';
 document.body.appendChild(hospitalAppointmentSystem);
 
 let hospitalAppointmentSystem = document.createElement('div');
-hospitalAppointmentSystem.innerHTML = '<h3>Name:</h3>';
+hospitalAppointmentSystem.innerHTML = '<h3>First Name:</h3>';
+document.body.appendChild(hospitalAppointmentSystem);
+
+
+let hospitalAppointmentSystem = document.createElement('div');
+hospitalAppointmentSystem.innerHTML = '<h3>Last Name:</h3>';
 document.body.appendChild(hospitalAppointmentSystem);
 
 let hospitalAppointmentSystem = document.createElement('div');
@@ -61,11 +66,7 @@ hospitalAppointmentSystem.innerHTML = '<h3>Email:</h3>';
 document.body.appendChild(hospitalAppointmentSystem);
 
 let hospitalAppointmentSystem = document.createElement('div');
-hospitalAppointmentSystem.innerHTML = '<h3>Insurance:</h3>';
-document.body.appendChild(hospitalAppointmentSystem);
-
-let hospitalAppointmentSystem = document.createElement('div');
-hospitalAppointmentSystem.innerHTML = '<h3>Doctor:</h3>';
+hospitalAppointmentSystem.innerHTML = '<h3>Insurance Coverage:</h3>';
 document.body.appendChild(hospitalAppointmentSystem);
 
 let hospitalAppointmentSystem = document.createElement('div');
@@ -91,6 +92,12 @@ document.body.appendChild(hospitalAppointmentSystem);
 let hospitalAppointmentSystem = document.createElement('div');
 hospitalAppointmentSystem.innerHTML = '<h3>Allergies:</h3>';
 document.body.appendChild(hospitalAppointmentSystem);
+
+
+let hospitalAppointmentSystem = document.createElement('div');
+hospitalAppointmentSystem.innerHTML = '<h3>Doctor:</h3>';
+document.body.appendChild(hospitalAppointmentSystem);
+
 
 
 let text;
