@@ -1,36 +1,37 @@
 README.md:
 
-Hospital Appointment System
+HOSPITAL APPOINTMENT SYSTEM:
+
 ->This is a hospital appointment system. It allows patients to book appointments with doctors.
 
-Installation:
+INSTALLATION:
 
 ->To install,run npm install.
 
-Usage:
+USAGE:
 
 ->To run the server,run npm start.
 
-Testing:
+TESTING:
 
 ->To run the tests, run npm test.
 
-Contributing:
+CONTRIBUTING:
 
 ->To contribute,please fork the repository and use a feature branch. Pull requests are welcome.
 
-Author:
+AUTHOR:
 
 ->Fred Murigi
 
-Github
+GITHUB:
 
 https://github.com/Freddie16
 
-Live site
+LIVE SITE:
 
 http://127.0.0.1:5501/index.html
 
-License
+LICENSE:
 
 ->The project is licensed under the MIT license.
