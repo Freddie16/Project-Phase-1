@@ -30,6 +30,28 @@ input[type=text], input[type=date] {
     box-shadow: 0 1px 1px -1px rgba(50,50,93,.25), 0 8px 16px -8px rgba(0,0,0,.3), 0 -6px 16px -6px rgba(0,0,0,.025);
   }
   
+  input[type=text], input[type=time] {
+    color: #696bd5;
+    border: none;
+    width: 100%;
+    padding: 1% 4%;
+    border-radius: 10px;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: 0 1px 1px -1px rgba(50,50,93,.25), 0 8px 16px -8px rgba(0,0,0,.3), 0 -6px 16px -6px rgba(0,0,0,.025);
+  }
+
+  input[type=text], input[type=tel] {
+    color: #696bd5;
+    border: none;
+    width: 100%;
+    padding: 1% 4%;
+    border-radius: 10px;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: 0 1px 1px -1px rgba(50,50,93,.25), 0 8px 16px -8px rgba(0,0,0,.3), 0 -6px 16px -6px rgba(0,0,0,.025);
+  }
+
   ::placeholder {
     color: #E4E4E4;
   }
@@ -79,3 +101,5 @@ input[type=text], input[type=date] {
       padding: 4% 2%;
     }
   }
+
+ 
