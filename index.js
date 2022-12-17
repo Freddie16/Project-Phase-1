@@ -18,8 +18,8 @@ function getData() {
 
 
 
-  let submit = document.eventListeners('div');
-  submit.innerHTML = '<h1>Event Listeners</h1>' +
+  let submit = document.addEventListeners('div');
+  submit.innerHTML = '<h1>Hospital appointment system</h1>' +
     '<p>The following event listeners are added:</p>' +
     '<ul>' +
     '<li>When the user clicks the "Book Appointment" button, the "Book Appointment" modal is shown.</li>' 
