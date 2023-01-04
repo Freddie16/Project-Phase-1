@@ -29,7 +29,7 @@ GITHUB:
 https://github.com/Freddie16
 
 LIVE SITE:
-http://127.0.0.1:5501/
+https://cheery-smakager-e5c495.netlify.app
 
 
 LICENSE:
